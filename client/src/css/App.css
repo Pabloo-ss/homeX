@@ -1,0 +1,1148 @@
+body{
+    background-color: #F2F8FF;
+    height: 100vh;
+    width: 100vw;
+}
+
+input{
+    text-align: center;
+}
+
+.web-container
+{
+    margin: 0 auto;
+    background: #F2F8FF;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+
+#bigSizeLogo{
+    width: auto;
+    height: 280px;
+}
+
+
+#registerLogoContainer{
+    margin-top: 10vh;
+    max-width: 300px;
+    flex-basis: 30%;
+}
+
+.registerLogo{
+    width: 100%;
+    height: auto;
+}
+
+.logo-container{
+    margin: 0 auto;
+}
+
+.register-form-container input:not(.green-button){
+    min-width: 300px;
+    max-width: 400px;
+}
+.register-form-container{
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.register-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.item-container{
+    margin: 5px 0;
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.sub-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    flex-basis: 50%;
+}
+
+.item-container input{
+    padding: 10px;
+    min-height: 40px;
+    margin: 5px 0;
+}
+
+
+.item-container label{
+    text-align: center;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    padding: 20px;
+    min-width: 350px;
+    width: 33vw;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+.form-container input{
+    width: 100%;
+    height: 57px;
+}
+
+
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-button, .right-button{
+    padding: 0 5vw;
+}
+
+
+
+/*Before right button # login Button
+/* NAVBAR START*/   /*NAVBAR min resolution 1024px */
+
+
+.web-container
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navbar-container{
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9eaff;
+
+    position: sticky;
+    top: 0;
+}
+
+
+.content-container{
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+ .nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 80%;
+}
+
+
+.navBar-item{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+
+.navBar-item-b{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #007CFF;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+a{
+    color: initial;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+.navBarItemIcon{
+    height: auto;
+    width: 40px;
+}
+
+.menuText{
+    margin-left: 13%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size:1.3rem; 
+    font-family: roboto;
+}
+
+
+.logout-container{
+    display: flex;
+    align-items: center;
+    min-height: 85px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+
+
+ .logout-container:hover{
+    text-decoration: none;
+}
+
+.logout-container h2{
+    color: red;
+    text-decoration: none;
+}
+
+.logout{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* NAVBAR END */
+
+
+/*special buttons*/
+.green-button,
+.red-button,
+.blue-button
+{
+    padding: 10px 13px;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    text-align: center;
+    min-width: 200px;
+    display: inline-block;
+    border: none;
+    cursor:pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.green-button
+{
+    background-color: #28a745;
+    
+}
+
+.red-button
+{
+    background-color: #dc3545;
+}
+
+.blue-button
+{
+    background-color: #3545dc;
+}
+
+.green-button:hover,
+.red-button:hover,
+.blue-button:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.green-button:hover
+{
+    background-color: #107020; 
+}
+
+.red-button:hover
+{
+  background-color: #a01020; 
+}
+
+.blue-button:hover
+{
+  background-color: #1020a0; 
+}
+
+/* New css made by miguel and pablo */
+
+input:disabled {
+    background-color: lightslategray;
+    cursor: default;
+}
+
+.addProp-form-container{
+    background-color: #d9eaff;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 1100px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+    font-family: roboto;
+    text-align: center;
+}
+
+.addProp-form-container .name-container{
+    width: 100%;
+}
+
+.addProp-form-container .name-container h1{
+    margin-left: 30px;
+    font-size: 34px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.addProp-form-container .address-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addProp-form-container .address-container .inputs-container{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.addProp-form-container .address-container .inputs-container .item1{
+    flex-basis: 50%;
+    margin-left: 15px;
+}
+
+.addProp-form-container .address-container .inputs-container .item2{
+    flex-basis: 25%;
+}
+
+.addProp-form-container .address-container .inputs-container .item3{
+    flex-basis: 25%;
+}
+
+#street, #floor, #number{
+    height: 50px;
+}
+
+#street{
+    width: 80%;
+}
+
+#number{
+    width: 50%;
+}
+
+#floor{
+    width: 60%;
+}
+
+.addProp-form-container .props-container{
+    width: 100%;
+    display: flex;
+
+}
+
+.addProp-form-container .props-container .items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+    width: 100%;
+}
+
+.addProp-form-container .props-container .items-container .item{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.addProp-form-container .props-container .items-container .item input{
+    width: 30%;
+    height: 50px;
+}
+
+.addProp-form-container .props-container .images-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.addProp-form-container .props-container .images-container h5{
+    font-weight: bold;
+}
+
+.addProp-form-container .button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.error{
+    border-radius: 10px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    align-self: center;
+}
+
+
+
+
+/* modals */
+@keyframes modal_load
+{
+    from 
+    {
+        width: 0%;
+        height:0%
+    }
+    to 
+    {
+        width: 55%;
+        height: 75%
+    }
+}
+
+#modal 
+{
+    z-index: 2;
+    cursor: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.7);
+}
+#modalContent 
+{
+    animation: modal_load both 0.2s linear;
+    /* overflow:hidden; */
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+    margin: auto;
+    background: white;
+    border-radius:10px;
+    padding:5px;
+    border:thin solid black;
+}
+
+#modalContent #info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#modalContent #info #title{
+    display: flex;
+    justify-content: center;
+    flex:3;
+}
+
+#modalContent #info #exit{
+    width: 25px;
+    height: 25px;
+}
+
+#modalContent #info #exit img{
+    max-width:100%;
+    max-height:100%;
+}
+
+#modalContent #info #exit img:hover{
+    filter:brightness(150%);
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+#modalContent #product{
+    display: flex;
+    justify-content: center;
+    height: 540px;
+}
+
+#modalContent #product #productInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#modalContent #product img{
+    max-width: 100%;
+    padding: 5em;
+}
+
+#modalContent #buttons{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.content-container .search{
+    flex-basis: 10%;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.content-container .search .blue-button{
+    border-radius: 10px;
+    height: 80%;
+    background-color: #007CFF;
+}
+
+.content-container .propertiesGrid .round-blue-button{
+    background-color: #007CFF;
+    padding: 10px 13px;
+    width: 15%;
+    height: 30%;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    min-width: 200px;
+    display: inline-block;
+    border: none;
+    cursor:pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.content-container .propertiesGrid .round-blue-button:hover{
+    transform: scale(1.15);
+}
+
+
+.content-container .search input{
+    text-align: start;
+    border-radius: 15px;
+    width: 323px;
+    height: 56px;
+}
+
+.content-container .properties-container{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}  
+
+.content-container .properties-container h2{
+    text-align: center;
+    font-family: roboto;
+    font-size: 32px;
+}
+
+.content-container .propertiesGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 7%;
+    
+
+    /* Please make the scroll bar be near the flex, or make this "grid" better. */
+    -webkit-flex-direction: none;
+    overflow-x: scroll;
+
+    padding: 20px;
+}
+
+.content-container .completePropertiesGrid{
+    margin: 10px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30% [col-start]);
+    grid-auto-rows: 1fr;
+}
+
+
+.content-container .completePropertiesGrid .property,
+.content-container .propertiesGrid .property{
+    width: 25%;
+    min-width: 25%;
+    border: thin solid #D4D4D4;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px #D4D4D4;
+    cursor: pointer;
+
+    justify-self: center;
+
+    font-family: roboto;
+}
+
+.content-container .completePropertiesGrid .property{
+    width: 75%;
+    height: 90%;
+}
+
+.content-container .completePropertiesGrid .property .property-content,
+.content-container .propertiesGrid .property .property-content{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container .completePropertiesGrid .property .propertyMainImage,
+.content-container .propertiesGrid .property .propertyMainImage{
+    width: 100%;
+    height: 70%;
+}
+
+.content-container .completePropertiesGrid .property .propertyMainImage img,
+.content-container .propertiesGrid .property .propertyMainImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-container .completePropertiesGrid .property .propertyName,
+.content-container .propertiesGrid .property .propertyName{
+    overflow: hidden;
+    max-width: 80%;
+    flex-basis: 10%;
+    text-align: center;
+    margin-top: 0px;
+
+    font-size: 30px;
+
+}
+
+.content-container .completePropertiesGrid .property .city,
+.content-container .propertiesGrid .property .city{
+    font-size: 24px;
+}
+
+.content-container .completePropertiesGrid .property .propertyPrice,
+.content-container .propertiesGrid .property .propertyPrice{
+    color: #007CFF;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.modal-property{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    font-family: roboto;
+}
+
+.modal-property #info{
+    flex-basis: 10%;
+}
+
+
+.modal-property #propertyImages {
+    flex-basis: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+    -webkit-flex-direction: none;
+    overflow-x: scroll;
+
+    column-gap: 10%;
+}
+
+
+.modal-property #propertyImages img{
+    flex-basis: 25%;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-property #propertyFieldsMod{
+    height: 100%;
+    width: 100%;
+    flex-basis: 30%;
+    margin: auto;
+    display: flex;
+}
+
+.modal-property #propertyFieldsMod #text-inputs{
+    flex-basis: 25%;
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.modal-property #propertyFieldsMod #text-inputs #item2,
+.modal-property #propertyFieldsMod #text-inputs #item1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.modal-property #propertyFieldsMod #text-inputs #item2 input,
+.modal-property #propertyFieldsMod #text-inputs #item1 input{
+    width: 100px;
+}
+
+.modal-property #propertyFieldsMod #other-inputs{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.modal-property #propertyFieldsMod #other-inputs h5{
+    font-weight: bold;
+}
+
+.modal-property #buttons{
+    display: flex;
+
+    column-gap: 30%;
+}
+
+.modal-property #propertyFields{
+    margin: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    column-gap: 10%;
+    font-size: 32px;
+
+}
+
+.modal-property #propertyFields label{
+    display: flex;
+    align-items: center;
+}
+
+/* contracts stuff */
+
+.content-container .contractsResident{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 7%;
+
+    -webkit-flex-direction: none;
+    overflow-x: scroll;
+    
+}
+
+.web-container h2{
+    font-family: roboto;
+}
+
+
+.content-container .contractsResident .contract{
+    width: 25%;
+    min-width: 25%;
+    border: thin solid #D4D4D4;
+    height: 40vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    box-shadow: 0px 10px 20px #D4D4D4;
+
+    font-family: roboto;
+}
+
+.content-container .contractsResident .contract .propertyName{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    flex-basis: 12%;
+    overflow: hidden;
+}
+
+.content-container .contractsResident .contract .contractInfo{
+    padding: 15px;
+    flex-basis: 15%;
+    color:#007CFF;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.content-container .contractsResident .contract .contractMainImage {
+    width: 70%;
+    max-height: 50%;
+    flex-basis: 40%;
+}
+
+.content-container .contractsResident .contract .contractMainImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.content-container .rent-form{
+    background-color: #d9eaff;
+    text-align: center;
+    font-family: roboto;
+}
+
+.content-container .rent-form h1{
+    padding: 20px;
+}
+
+.content-container .rent-form .fields-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container .rent-form .fields-container .dates-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 20%;
+}
+
+
+
+
+
+
+
+/*ToDoApp styles START*/
+
+.todo-list__search{
+    margin-bottom: 16px;
+}
+
+.todo-list__sort, .todo-list__filters{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.todo-list__form {
+    display: flex;
+}
+
+.todo-list__input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    height: 20px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.todo-list__button {
+    border-radius: 4px;
+    height: 20px;
+    outline: none;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.todo-list__button--delete {
+   width: 20px;
+   color: white;
+   background-color: #c0392b;
+}
+
+.todo-list__button--sort, .todo-list__button--filter{
+    width: 30%;
+}
+
+.todo-list__button--sort-active, .todo-list__button--filter-active{
+   background-color: rgba(0,0,0,0.25);
+}
+
+
+
+.todo-list__button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.todo-list__button--delete:hover {
+    background-color: #e74c3c;
+ }
+
+.todo-list__list-item {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.todo-list__list-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-list__list-item--completed .todo-list__list-item-text-container {
+    text-decoration: line-through;
+}
+
+
+
+/*ToDoApp styles END*/
+
+
+.content-container .rent-form .fields-container .residents-container{
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 500px) {
+    /*LOGIN START */
+    #registerLogoContainer{
+        display: none;
+    }
+
+    .register-form-container{
+        width: 100vw;
+        padding: 0;
+        height: 100vh;
+        justify-content:space-between
+    }
+
+    .form-container{
+        align-self: center;
+    }
+    /*LOGIN END */
+
+    /*REGISTER START */
+    .logo-container{
+        margin: 0;
+        
+    }
+
+    .form-container{
+        margin: 0;
+    }
+
+    .button-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-button{
+        margin-bottom: 10px;
+    }
+
+    .logo-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .error{
+        font-size: 9px;
+    }
+
+    .item-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .register-form-container input:not(.green-button) {
+        width: calc(100% - 40px);
+        padding: 5px;
+    }
+
+    #userName{
+        width: calc(100% - 80px);
+    }
+
+    .user-type--labeled{
+        display: flex;
+        align-items: center;
+        gap:10px;
+    }
+
+    .user-type--labeled p {
+        margin: 0;
+    }
+
+    
+    /* REGISTER END */
+
+
+    /*NAVBAR START */
+    .navbar-container{
+        width: 20%;
+    }
+
+    .navbar-container h2{
+        display: none;
+    }
+    
+   .navBarItemIcon{
+    align-self: center;
+    margin: 0 auto;
+   }
+
+   .navBar-item, .navBar-item-b, .logout-container{
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+    
+   }
+
+   #littleSizeLogo{
+       width: 20vw;
+   }
+
+   .navBarIcon{
+       width: 100%;
+   }
+
+   /* NAVBAR END */
+
+   /*REST OF APP START*/
+
+   .content-container{
+       padding: 20px;
+       box-sizing: border-box;
+       width: 80%;
+   }
+   body{
+    overflow-x:hidden;
+   }
+
+   #buttons{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       gap:10px;
+   }
+
+   .content-container .propertiesGrid{
+    flex-direction: column;
+    overflow-y: scroll;
+    -webkit-flex-direction: none;
+    padding: 0;
+    }
+
+  .search{
+      flex-wrap: wrap;
+  }
+
+  .content-container .search .blue-button{
+      height: 50px;
+      margin-top: 10px;
+      width: 100%;
+      
+  }
+
+  .content-container .completePropertiesGrid .property, .content-container .propertiesGrid .property{
+      width: 90%;
+  }
+
+  .navbar-container{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+  }
+
+  .content-container{
+      margin-left: 20vw;
+  }
+
+  .content-container .completePropertiesGrid{
+    grid-template-columns: repeat(1, 90% [col-start]);
+
+ }
+  
+ .property{
+     margin: 10px;
+ }
+    /*REST OF APP END*/
+}
